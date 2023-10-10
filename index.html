@@ -4,22 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
     <title>Facebook - log in or sign up</title>
   </head>
   <body class="bg-gray-100">
 <div class="container w-98 mx-auto flex mt-48 items-center justify-center">
   <div class="lft w-1/2">
     <img src="fb-logo.svg" alt="fb-logo" class="w-321">
-    <p class="mx-6 text-2xl ">Connect with friends and the world around you on Facebook.
+    <p class="mx-6 text-2xl ">Facebook helps you connect and share with the people in your life..
     </p>
   </div>
-  <div class="rght flex flex-col bg-white
+  <div class="rght flex flex-col bg-white shadow-gray-200 shadow-xl
   p-3 w-396 rounded-xl">
-<input type="text" placeholder="Email or phone number" class="mb-3 p-3 border-solid border-gray-200 border-1 rounded-lg focus-visible::border-blue-300">
-<input type="password" placeholder="Password" class="p-3 border-solid border-gray-200 border-1 rounded-lg">
-<button class="login-btn">log in</button>
-<span>Forgot password?</span>
-<button class="create-acct-btn">Create Account</button>
+<input type="text" placeholder="Email or phone number" class="mb-3 p-3 border-solid border-gray-200 border-1 rounded-lg focus-visible::border-blue-300 outline-blue-400">
+<input type="password" placeholder="Password" class="p-3 border-solid border-gray-200 border-1 rounded-lg outline-blue-400">
+<button class="login-btn bg-blue-600 text-white py-3 my-2 rounded-md capitalize font-bold hover:bg-blue-700">log in</button>
+<span class="text-blue-600 text-center my-2 cursor-pointer hover:underline border-solid border-gray-300
+border-b-1 pb-4">Forgot password?</span>
+<button class="bg-green-600 py-3 my-4 text-white capitalize rounded-md font-bold w-fit px-4 mx-auto hover:bg-green-700">Create new Account</button>
+<span class="text-sm relative -bottom-12 text-center left-0"><span class="font-bold hover:underline cursor-pointer">Create a Page </span>for a celebrity, brand or business.</span>
   </div>
 </div>
   </body>
